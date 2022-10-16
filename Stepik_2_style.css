@@ -1,0 +1,247 @@
+@import url("normalize.css");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px auto; 
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+.header {
+  width: 100%;
+  height: 84px;
+  display: flex;
+  align-items: center;
+  background: #007765;
+  position: fixed;
+  top: 0;
+}
+
+.header_content{
+  max-width: 1219px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.logo:hover {
+  width: 145px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+color: #FFFFFF;
+padding-left: 8px;
+text-decoration: none;
+}
+
+.link:hover {
+  /* color: black; */
+  font-size: 26px;
+}
+
+/* Section 1 */
+
+.section_1 {
+  background: url(img/image.png);
+  background-size: cover;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  margin-top: 84px;
+}
+
+.piper {
+font-style: normal;
+font-weight: 500;
+font-size: 72px;
+line-height: 84px;
+text-align: center;
+color: #FFFFFF;
+max-width: 1219px;
+width: 100%;
+padding-left: 55px;
+padding-right: 55px;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* Section 2 */
+
+.section_2 {
+  background: #EEEEEE;
+  padding-top: 55px;
+  padding-bottom: 92px;
+}
+
+.main_container {
+  width: 100%;
+  max-width: 1219px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  margin-top: 48px;
+  margin-bottom: 0;
+}
+
+p {
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 38px;
+color: #000000;
+}
+
+/* Section 3 */
+
+.section_3 {
+  background: url(img/image_blue.png);
+  background-size: cover;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.blue_content {
+  width: 100%;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.blue_text {
+  font-style: italic;
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+color: #FFFFFF;
+}
+
+/* Section 4 */
+
+.section_4 {
+  padding-top: 48px;
+  padding-bottom: 92px;
+}
+
+.white_content {
+  width: 100%;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.logo_text {
+  float: left;
+  padding-right: 48px;
+}
+
+.logo_2 {
+  width: 115px;
+height: 115px;
+}
+
+/* Section 5 */
+
+.section_5 {
+  background: #EEEEEE;
+  padding-top: 48px;
+  padding-bottom: 92px;
+}
+
+.name_card {
+  font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #007765;
+margin: 0;
+}
+
+
+.card_field {
+  width: 350px;
+  height: 283px;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+    padding-bottom: 55px;
+}
+
+.figure {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.cards_photo {
+  width: 168px;
+    height: 168px;
+}
+
+.The_team {
+  padding-top: 58px;
+}
+
+/* Section 6 */
+.section_6 {
+  height: 176px;
+  background: #333333;
+  display: flex;
+  align-items: center;
+}
+
+.footer_field {
+  width: 100%;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.footer_content {
+  width: 540px;
+  height: 64px;
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+margin-left: auto;
+margin-right: auto;
+}
